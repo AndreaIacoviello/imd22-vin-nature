@@ -12,3 +12,33 @@ img,
 video {
   display: block;
 }
+.row + .row {
+  margin-top: 16px;
+}
+.row + .row {
+  margin-top: 16px;
+}
+
+body {
+  background: #fff;
+}
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+@import "bootstrap/scss/bootstrap-grid";
+
+.menu {
+  display: flex;
+  width: 1090px;
+  height: 29px;
+  padding-right: 3.169px;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 27.974px;
+  flex-shrink: 0;
+}
