@@ -138,3 +138,70 @@ body {
   font-size: 30px;
   font-weight: 300;
 }
+.domaine {
+  height: 464px;
+  flex-shrink: 0;
+  background: url(../images/image-domaine.png) lightgray 50% / cover no-repeat;
+  background-size: cover;
+}
+.texteledomaine {
+  margin-top: 10%;
+  display: flex;
+  width: 716px;
+  height: 138px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: #fff;
+  color: #000;
+  font-family: "Helvetica Neue";
+  font-size: 23px;
+  font-weight: 500;
+  color: #000;
+  font-family: "Helvetica Neue";
+  font-size: 23px;
+  font-weight: 400;
+}
+.voirplus {
+  width: 344px;
+  height: 51px;
+  flex-shrink: 0;
+  width: 277.419px;
+  height: 51px;
+  flex-shrink: 0;
+  border: 0.5px solid #000;
+  background: rgba(255, 255, 255, 0.75);
+  color: #000;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-size: 30px;
+  font-weight: 300;
+}
+.lencaveur {
+  height: 464px;
+  flex-shrink: 0;
+  background: url(../images/image-lencaver.png) lightgray 50% / cover no-repeat;
+  background-size: cover;
+}
+.textelencaveur {
+  margin-top: 10%;
+  display: flex;
+  width: 716px;
+  height: 138px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  background: #fff;
+  color: #000;
+  font-family: "Helvetica Neue";
+  font-size: 23px;
+  font-weight: 500;
+  color: #000;
+  font-family: "Helvetica Neue";
+  font-size: 23px;
+  font-weight: 400;
+}
