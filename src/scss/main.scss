@@ -127,3 +127,14 @@ body {
   height: 799px;
   flex-shrink: 0;
 }
+.boutonnosvins {
+  height: 51px;
+  flex-shrink: 0;
+  border: 0.5px solid #000;
+  background: rgba(255, 255, 255, 0.75);
+  color: #000;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-size: 30px;
+  font-weight: 300;
+}
