@@ -139,6 +139,13 @@ body {
   font-family: "Helvetica Neue";
   font-size: 30px;
   font-weight: 300;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+.boutonnosvins:hover {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
 }
 .domaine {
   height: 464px;
