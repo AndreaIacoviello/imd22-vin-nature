@@ -42,6 +42,7 @@ body {
   gap: 28px;
   flex-shrink: 0;
   display: flex;
+  margin-top: 20px;
 
   height: 19px;
   justify-content: space-between;
@@ -103,6 +104,7 @@ body {
   flex-shrink: 0;
   background-image: url(../images/image\ header.png);
   background-size: cover;
+  margin-top: 20px;
 }
 .phraseheader {
   color: #fff;
@@ -126,6 +128,7 @@ body {
 .imagenosvins {
   height: 799px;
   flex-shrink: 0;
+  margin-top: 50px;
 }
 .boutonnosvins {
   height: 51px;
@@ -143,6 +146,7 @@ body {
   flex-shrink: 0;
   background: url(../images/image-domaine.png) lightgray 50% / cover no-repeat;
   background-size: cover;
+  margin-top: 50px;
 }
 .texteledomaine {
   margin-top: 10%;
@@ -182,6 +186,7 @@ body {
   flex-shrink: 0;
   background: url(../images/image-lencaver.png) lightgray 50% / cover no-repeat;
   background-size: cover;
+  margin-top: 50px;
 }
 .textelencaveur {
   margin-top: 10%;
@@ -218,6 +223,8 @@ body {
   font-family: "Helvetica Neue";
   font-size: 30px;
   font-weight: 300;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .lignefooter {
   width: 100%;
@@ -230,29 +237,53 @@ body {
   font-family: "Helvetica Neue";
   font-size: 18px;
   font-weight: 500;
+  margin-bottom: 20px;
 }
 .footertitre p {
   color: #000;
   font-family: "Helvetica Neue";
   font-size: 12px;
   font-weight: 300;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .footerdegustation {
   color: #000;
   font-family: "Helvetica Neue";
   font-size: 12px;
   font-weight: 300;
+  margin-bottom: 20px;
 }
 .footerinfo {
   color: #000;
   font-family: "Helvetica Neue";
   font-size: 12px;
   font-weight: 300;
+  margin-bottom: 20px;
 }
 .footercopie {
   color: #000;
   font-family: "Helvetica Neue";
   font-size: 12px;
   font-weight: 300;
+  margin-bottom: 20px;
+}
+.footerdomaine {
+  color: #000;
+  text-align: center;
+  font-family: "Bodoni 72 Smallcaps";
+  font-size: 25px;
+  font-weight: 400;
+}
+.footerdm {
+  height: 55px;
+  flex-shrink: 0;
+}
+.footerbio {
+  height: 79px;
+  flex-shrink: 0;
+}
+.footerreseau {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
