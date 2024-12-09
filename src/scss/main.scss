@@ -42,12 +42,11 @@ body {
   gap: 28px;
   flex-shrink: 0;
   display: flex;
-  margin-top: 20px;
-
   height: 19px;
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
+  margin-top: 30px;
 }
 .logo {
   flex-shrink: 0;
@@ -104,7 +103,7 @@ body {
   flex-shrink: 0;
   background-image: url(../images/image\ header.png);
   background-size: cover;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .phraseheader {
   color: #fff;
@@ -128,7 +127,7 @@ body {
 .imagenosvins {
   height: 799px;
   flex-shrink: 0;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .boutonnosvins {
   height: 51px;
@@ -146,7 +145,7 @@ body {
   flex-shrink: 0;
   background: url(../images/image-domaine.png) lightgray 50% / cover no-repeat;
   background-size: cover;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .texteledomaine {
   margin-top: 10%;
@@ -186,7 +185,7 @@ body {
   flex-shrink: 0;
   background: url(../images/image-lencaver.png) lightgray 50% / cover no-repeat;
   background-size: cover;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .textelencaveur {
   margin-top: 10%;
@@ -223,8 +222,8 @@ body {
   font-family: "Helvetica Neue";
   font-size: 30px;
   font-weight: 300;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 .lignefooter {
   width: 100%;
@@ -285,5 +284,19 @@ body {
 .footerreseau {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 40px;
+}
+.footerdeux {
+  display: flex;
+  width: 175px;
+  height: 420px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 69px 26px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.footerun {
+  margin-bottom: 50px;
 }
