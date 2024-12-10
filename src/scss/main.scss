@@ -373,3 +373,32 @@ body {
   margin-top: 70px;
   margin-left: -12px;
 }
+.boutonpanier:hover {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+}
+.boutonvinblanc {
+  display: block;
+  height: 51px;
+  flex-shrink: 0;
+  border: 0.5px solid #000;
+  background: rgba(255, 255, 255, 0.75);
+  color: #000;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: -500px;
+  text-decoration: none;
+}
+.boutonvinblanc:hover {
+  color: #fff;
+  background-color: #000;
+  text-decoration: none;
+}
+.imagevinaction {
+  background-image: url(../images/image-vin-coltoaction.png);
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
