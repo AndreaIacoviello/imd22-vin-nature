@@ -354,3 +354,22 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+.boutonpanier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 0.5px solid #000;
+  background: rgba(255, 255, 255, 0.75);
+  color: #000;
+  text-decoration: none;
+  width: 50%;
+  height: 50px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 70px;
+  margin-left: -12px;
+}
