@@ -23,13 +23,6 @@ video {
 body {
   background: #fff;
 }
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
 
 @import "bootstrap/scss/bootstrap-grid";
 
@@ -156,6 +149,7 @@ body {
   background: url(../images/image-domaine.png) lightgray 50% / cover no-repeat;
   background-size: cover;
   margin-top: 350px;
+  margin-bottom: 30px;
 }
 .texteledomaine {
   margin-top: 10%;
@@ -203,6 +197,7 @@ body {
   background: url(../images/image-lencaver.png) lightgray 50% / cover no-repeat;
   background-size: cover;
   margin-top: 100px;
+  margin-bottom: 30px;
 }
 .textelencaveur {
   margin-top: 200px;
@@ -252,6 +247,7 @@ body {
   width: 100%;
   height: 2px;
   background: #000;
+  margin-bottom: 20px;
 }
 .footertitre {
   margin-bottom: 100px;
