@@ -52,6 +52,9 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+.logo a {
+  text-decoration: none;
+}
 .nosvins {
   display: flex;
   height: 18px;
@@ -118,6 +121,7 @@ body {
   width: 232.234px;
   position: absolute;
 }
+
 .imagenosvins {
   height: 799px;
   flex-shrink: 0;
@@ -335,6 +339,7 @@ body {
 
 .imagevinrouge {
   flex-shrink: 0;
+  margin-top: 40px;
 }
 .titrevin {
   color: #000;
@@ -343,6 +348,7 @@ body {
   font-weight: 400;
   width: 100%;
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 .des {
   color: #000;
